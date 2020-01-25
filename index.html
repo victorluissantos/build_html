@@ -46,11 +46,28 @@
 								class="input-group-text">b</span>
 						</div>
 					</div>
-					<div>
+					<div class="input-group mb-3">
 						<textarea 
-							id="area"
-							class="form-control"
-							onchange="$('.texto').html($(this).val())"></textarea>
+							id="area2"
+							class="form-control"></textarea>
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text">Whatsapp</span>
+						</div>
+						<input 
+							type="text"
+							onchange="link_whats($(this).val())"
+							class="form-control">
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text">Email</span>
+						</div>
+						<input 
+							type="text"
+							onchange="link_mail($(this).val())"
+							class="form-control">
 					</div>
 				</div>
 				<div class="col-sm">
@@ -69,6 +86,8 @@
 							<div class="texto"></div>
 						</div>
 						<div class="row">
+							<div class="whats"></div>
+							<div class="email"></div>
 						</div>
 						<div class="row">
 						</div>
