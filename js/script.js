@@ -19,4 +19,3 @@ function link_mail(email) {
 $('div').on('change', function(e) {
 	$('.texto').html(document.getElementsByClassName('nicEdit-main')[0].innerHTML)
 });
-
